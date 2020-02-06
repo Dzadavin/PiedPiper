@@ -1,0 +1,217 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000;
+    background-color: #e5e5e5;
+}
+/* img {
+    max-width: 100%;
+} */
+a {
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.container {
+    width: 1219px;
+    /* outline: 1px solid red; */
+    margin: 0 auto;
+    border-top: 1px solid transparent;
+}
+.wide .container {
+    width: 2011px;  
+}
+.main-header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: #007765;
+    color: #fff;
+    padding-left: 55px;
+    padding-right: 55px;
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+}
+.wide .main-header {
+    padding-left: 374px;
+    padding-right: 400px;
+}
+.main-header a {
+    color: #fff;
+}
+.main-header .navigation {
+    display: flex;
+}
+.main-header .navigation-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 492px;
+}
+.main-header .logo {
+    margin: 20px 0 12px 0;
+}
+.main-header .navigation-item {
+    margin: 0;
+    padding: 0;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+.navigation-item a {
+    display: inline-box;
+    height: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 3px solid #fff;
+}
+.navigation-item:last-child a {
+    padding-right: 0;
+    border-right: none;
+}
+.thin .under-logo {
+    margin-top: 84px;
+    width: 1219px;
+    height: 403px;
+    background-image: url("img/1219/jumbotron.png");
+    background-size: contain;
+}
+.wide .under-logo {
+    margin-top: 84px;
+    width: 2011px;
+    height: 403px;
+    background-image: url("img/2011/jumbotron.png");
+    background-size: contain;
+}
+/*******************************/
+.goto-marker {
+    /* width: 100%; */
+    height: 85px;
+    margin-top: -85px;
+    background-color: transparent;
+    position: absolute;
+    z-index: -1;
+}
+.thin .edge-borders {
+    padding-left: 55px;
+    padding-right: 54px;
+    padding-block-end: 92px;
+}
+.wide .edge-borders {
+    padding-left: 451px;
+    padding-right: 450px;
+    padding-block-end: 92px;
+}
+.problem {
+    background-color: #eee;
+}
+h2 {
+    padding: 0;
+    margin: 0;
+    color: #007765;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+.first-paragraph {
+    margin-block-start: 0;
+}
+.last-paragraph {
+    margin-block-end: 0;
+}
+/****************************/
+.introduction {
+    background-color: #fff;
+}
+.thin .under-problem {
+    width: 1219px;
+    height: 483px;
+    background-image: url("img/1219/hero.png");
+    background-size: contain;
+}
+.wide .under-problem {
+    width: 2011px;
+    height: 483px;
+    background-image: url("img/2011/hero.png");
+    background-size: contain;
+}
+.introduction .ppc-logo {
+    width: 115px;
+    height: 115px;
+    background-size: contain;
+    float: left;
+    margin-inline-end: 48px;
+}
+/*****************************/
+.team {
+    background-color: #eee;
+}
+.team .team-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.team .team-item {
+    width: 350px;
+    height: 283px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+    margin-inline-end: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team-item:nth-child(3n) {
+    margin-inline-end: 0;
+}
+.team-item cite {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+}
+.team img {
+    width: 168px; 
+}
+.team h2 {
+    margin-block-end: 40px;
+}
+/*****************************/
+.page-footer {
+    background-color: #333;
+    color: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+.page-footer p {
+    display: inline-block;
+    margin-top: 48px;
+    margin-bottom: 64px;
+    width: 540px;
+    height: 64px;
+
+}
